@@ -7,7 +7,7 @@
 
 ## STEP1.DownLoad File And Unzip
 
-{% file src=".gitbook/assets/apmsetup.zip" caption="apmsetup.zip" %}
+{% file src=".gitbook/assets/apmsetup.sh" caption="apmsetup.sh" %}
 
 Download the file 
 
