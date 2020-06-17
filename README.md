@@ -3,6 +3,7 @@
 - Apache2.x
 - PHP7.2.x
 - MariaDB
+- vsftpd
 
 ## STEP1.DownLoad File
 
