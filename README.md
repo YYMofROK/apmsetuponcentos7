@@ -9,6 +9,8 @@
 
 Download the file \(apmsetup.sh\) to the /root location of Centso7 Linux \(RedHat family\).
 
+{% file src=".gitbook/assets/apmsetup.zip" caption="apmsetup.zip" %}
+
 ## STEP2.Grants execute permission to the downloaded file.
 
 shell&gt; chmod 701 /root/apmsetup.sh
