@@ -1,4 +1,7 @@
-# Build software better, together
+# Apache PHP7.2.x MariaDB batch install script on Centos7
 
- You can’t perform that action at this time. 
+ 
+ First down load this File -> apmsetup.sh
+ 
+ 
 
