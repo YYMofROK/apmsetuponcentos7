@@ -5,11 +5,17 @@
 * MariaDB
 * vsftpd
 
-## STEP1.DownLoad File
-
-Download the file \(apmsetup.sh\) to the /root location of Centso7 Linux \(RedHat family\).
+## STEP1.DownLoad File And Unzip
 
 {% file src=".gitbook/assets/apmsetup.zip" caption="apmsetup.zip" %}
+
+Download the file 
+
+## STEP2. Move the apmsetup.sh File
+
+Move the apmsetup.sh file to the /root location of your Linux system.
+
+shell&gt; mv ./apmsetup.sh /root
 
 ## STEP2.Grants execute permission to the downloaded file.
 
