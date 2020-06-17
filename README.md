@@ -1,6 +1,6 @@
 # APM install on Centos7 Script
 
-Apache2.x PHP7.2.x MariaDB 
+Apache2.x PHP7.2.x MariaDB
 
 ## STEP1.DownLoad File
 
