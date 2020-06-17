@@ -1,14 +1,14 @@
 # Apache PHP7.2.x MariaDB install on Centos7 Script
 
-## DownLoad File
+## STEP1.DownLoad File
 
 Download the file \(apmsetup.sh\) to the /root location of Centso7 Linux \(RedHat family\).
 
-## Grants execute permission to the downloaded file.
+## STEP2.Grants execute permission to the downloaded file.
 
 shell&gt; chmod 701 /root/apmsetup.sh
 
-## Execute the file.
+## STEP3.Execute the file.
 
 shell&gt; /root/apmsetup.sh
 
