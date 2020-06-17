@@ -29,5 +29,5 @@ shell&gt; /root/apmsetup.sh
 
 shell&gt; yum install -y wget  
   
-shell&gt; wget -O apmsetup.sh -P /root/apmsetup.sh [https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MA0rupUj-DSwt1vddQm%2F-MA1SQMbDn\_G1pMI2DuM%2F-MA1UeXRvNtvCSMrvEEU%2Fapmsetup.sh?alt=media&token=26a2ca63-121d-4c5e-957e-f8a3a51dba3c](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MA0rupUj-DSwt1vddQm%2F-MA1SQMbDn_G1pMI2DuM%2F-MA1UeXRvNtvCSMrvEEU%2Fapmsetup.sh?alt=media&token=26a2ca63-121d-4c5e-957e-f8a3a51dba3c)
+shell&gt; wget -O apmsetup.sh -P /root/apmsetup.sh [https://firebasestorage.googlapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MA0rupUj-DSwt1vddQm%2F-MA1SQMbDn\_G1pMI2DuM%2F-MA1UeXRvNtvCSMrvEEU%2Fapmsetup.sh?alt=media&token=26a2ca63-121d-4c5e-957e-f8a3a51dba3c](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MA0rupUj-DSwt1vddQm%2F-MA1SQMbDn_G1pMI2DuM%2F-MA1UeXRvNtvCSMrvEEU%2Fapmsetup.sh?alt=media&token=26a2ca63-121d-4c5e-957e-f8a3a51dba3c)
 
