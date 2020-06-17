@@ -5,11 +5,9 @@
 * MariaDB
 * vsftpd
 
-## STEP1.DownLoad File And Unzip
+## STEP1.DownLoad File
 
 {% file src=".gitbook/assets/apmsetup.sh" caption="apmsetup.sh" %}
-
-Download the file 
 
 ## STEP2. Move the apmsetup.sh File
 
