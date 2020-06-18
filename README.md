@@ -25,7 +25,7 @@ shell&gt; chmod 701 /root/apmsetup.sh
 
 shell&gt; /root/apmsetup.sh
 
-## Tip. STEP1 + STEP2
+## Tip\_1. STEP1 + STEP2
 
 shell&gt; yum install -y wget  
   
