@@ -23,12 +23,13 @@ yum install -y wget
 # repository 설정을 했으면 아래 명령으로 YUM을 통해서 Maria DB를 설치할 수 있다.
 # sudo yum install MariaDB-server MariaDB-client
 #MariaDB first config
-#mysql_secure_installation
+systemctl enable mariadb
+systemctl start mariadb
+mysql_secure_installation
 # -폐기- MariaDB install - use rpm ( yum )
 # -폐기- yum -y install mariadb-*
 
-systemctl enable mariadb
-systemctl start mariadb
+
 
 #-----------------------------------------------------------
 #centos 7 vsftpd install - use rpm ( yum )
