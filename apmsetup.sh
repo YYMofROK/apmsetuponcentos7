@@ -71,5 +71,5 @@ systemctl restart httpd
 #firewall-cmd --zone=public --add-port=80/tcp --permanent
 #firewall-cmd --zone=public --add-port=443/tcp --permanent
 #firewall-cmd --zone=public --add-port=3306/tcp --permanent
-
+#firewall-cmd --reload
 
