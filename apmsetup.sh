@@ -73,3 +73,18 @@ systemctl restart httpd
 #firewall-cmd --zone=public --add-port=3306/tcp --permanent
 #firewall-cmd --reload
 
+#-----------------------------------------------------------------------
+[root@localhost ~]# yum install php-fpm
+[root@localhost ~]# vim /etc/httpd/conf.d/php.conf
+# 저는 31 라인 입니다만 각자 다 다르겠죠?
+<FilesMatch \.php$>
+#    SetHandler application/x-httpd-php
+    SetHandler "proxy:fcgi://127.0.0.1:9000" 
+</FilesMatch>
+
+서비스 재시작
+[root@localhost ~]# systemctl start php-fpm 
+[root@localhost ~]# systemctl enable php-fpm 
+[root@localhost ~]# systemctl restart httpd 
+#-----------------------------------------------------------------------
+
