@@ -14,11 +14,11 @@ yum install -y wget
 # sudo vi /etc/yum.repos.d/MariaDB.repo
 # MariaDB 10.3 CentOS repository list - created 2019-01-13 00:47 UTC
 # http://downloads.mariadb.org/mariadb/repositories/
-# [mariadb]
-# name = MariaDB
-# baseurl = http://yum.mariadb.org/10.3/centos7-amd64
-# gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
-# gpgcheck=1
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.3/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
 # Maria DB 설치
 # repository 설정을 했으면 아래 명령으로 YUM을 통해서 Maria DB를 설치할 수 있다.
 
