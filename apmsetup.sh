@@ -33,15 +33,6 @@ mysql_secure_installation
 # -폐기- yum -y install mariadb-*
 
 
-
-#-----------------------------------------------------------
-#centos 7 vsftpd install - use rpm ( yum )
-
-yum install -y vsftpd
-systemctl enable vsftpd
-
-#view /etc/vsftpd/vsftpd.conf ( <= config file location )
-
 #-------------------------------------------------
 #centos 7 vsftpd install - use rpm ( yum )
 
