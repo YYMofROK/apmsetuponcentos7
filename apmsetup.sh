@@ -53,7 +53,26 @@ wget -P /root http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 rpm -Uvh /root/remi-release-7.rpm
 yum install -y yum-utils
 yum-config-manager --enable remi-php72
-yum install -y php php-common php-fpm php-process php-opcache php-pecl-apcu php-mysqlnd php-pdo php-gd php-mbstring php-xml php-pecl-zip php-bcmath
+yum install -y php
+yum install -y php-common
+yum install -y php-fpm
+yum install -y php-process
+yum install -y php-opcache
+yum install -y php-pecl-apcu
+yum install -y php-mysqlnd
+yum install -y php-pdo
+yum install -y php-gd
+yum install -y php-mbstring
+yum install -y php-xml
+yum install -y php-pecl-zip
+yum install -y php-bcmath
+yum install -y php-pgsql
+yum install -y php-odbc
+yum install -y php-pdo.x86_64
+yum install -y php-pdo-dblib.x86_64
+yum install -y php-pecl-imagick.x86_64
+yum install -y php-pecl-imagick-devel.x86_64
+yum install -y php-xmlrpc.x86_64
 
 systemctl restart httpd
 #-----------------------------------------------------------------------
