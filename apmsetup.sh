@@ -6,13 +6,6 @@ yum install -y net-tools
 yum install -y bind-utils
 yum install -y rsync
 yum install -y wget
-
-#-----------------------------------------------------------
-#centos 7 vsftpd install - use rpm ( yum )
-
-yum install -y vsftpd
-systemctl enable vsftpd
-#view /etc/vsftpd/vsftpd.conf ( <= config file location )
 #-------------------------------------------------
 #centos 7 apache install - use rpm ( yum )
 
@@ -49,7 +42,12 @@ yum install -y php-pecl-imagick-devel.x86_64
 yum install -y php-xmlrpc.x86_64
 
 systemctl restart httpd
+#-----------------------------------------------------------
+#centos 7 vsftpd install - use rpm ( yum )
 
+yum install -y vsftpd
+systemctl enable vsftpd
+#view /etc/vsftpd/vsftpd.conf ( <= config file location )
 #-----------------------------------------------------------
 # sudo vi /etc/yum.repos.d/MariaDB.repo
 # MariaDB 10.3 CentOS repository list - created 2019-01-13 00:47 UTC
