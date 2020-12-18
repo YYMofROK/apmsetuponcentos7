@@ -1,4 +1,12 @@
 #!/bin/bash
+
+#-----------------------------------------------------------
+yum install -y openssh-server
+yum install -y openssh-clients
+yum install -y vopenssh-askpass
+# vi /etc/ssh/sshd_config 
+# Port 22 부분 주석 해제
+
 #-----------------------------------------------------------
 yum update -y
 yum group install -y "Development Tools"
